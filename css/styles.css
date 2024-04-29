@@ -1216,10 +1216,13 @@ border-top: none;
         display: flex;
     }
 
+        .features-icon {
+
+        }
+
         .section-features-list {
             flex-wrap: nowrap;
-            justify-content: center;
-            align-items: center;
+
         }
 
     .section-features-list-item {
