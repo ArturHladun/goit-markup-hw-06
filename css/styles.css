@@ -1091,6 +1091,7 @@ border-top: none;
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                     url(../images/hero-tablet-2x-min.jpg);
             }
+        }
 
 .hero-section {
     max-width: 768px;
@@ -1123,6 +1124,7 @@ border-top: none;
         gap: 64px 24px;
     }
 
+
     /* Portfolio */
 
     .potfolio-section-list {
@@ -1133,10 +1135,10 @@ border-top: none;
         width: calc((100% - 2 * 24px) / 2);
         
         }
-    
+    }
     /* Footer */
 
-    }
+    
 
 /* 1158px */
 
@@ -1148,6 +1150,22 @@ border-top: none;
             padding-right: 15px;
             margin: 0 auto;
     }
+
+        .header-menu-list {
+        display: flex;
+        }
+
+        .mob-menu {
+            display: none;
+        }
+
+        .menu-open-btn {
+            display: none;
+        }
+
+        .header-address-list {
+            display: flex;
+        }
 
     .hero-section {
         padding-top: 188px;
@@ -1166,7 +1184,7 @@ border-top: none;
 
     .hero-section-heading {
         margin-bottom: 48px;
-        max-width: 496px;
+        width: 496px;
         font-size: 56px;
         line-height: 107%;
     }
@@ -1175,16 +1193,6 @@ border-top: none;
         padding-top: 120px;
         padding-bottom: 120px;
 
-    }
-
-    .section-features-list {
-    flax-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    }
-
-    .section-features-list-item {
-    width: calc((100% - 3 * 24px) / 4);
     }
 
     .features-list-header {
@@ -1207,6 +1215,17 @@ border-top: none;
     .features-icons-container {
         display: flex;
     }
+
+        .section-features-list {
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+    .section-features-list-item {
+    width: calc((100% - 3 * 24px) / 4);
+        }
+}
 
     /* Our team */
 
